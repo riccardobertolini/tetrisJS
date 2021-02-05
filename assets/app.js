@@ -91,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
         moveDown()
       }
     }
+    
     document.addEventListener('keyup', control)
   
     //move down function
@@ -155,7 +156,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const displayWidth = 4
     const displayIndex = 0
   
-  
     //the Tetrominos without rotations
     const upNextTetrominoes = [
       [1, displayWidth+1, displayWidth*2+1, 2], //lTetromino
@@ -218,5 +218,4 @@ document.addEventListener('DOMContentLoaded', () => {
         clearInterval(timerId)
       }
     }
-  
   })
